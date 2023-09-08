@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "web": {
+      "bundler": "metro"
+    },
+    "orientation": "portrait",
+    "plugins": [
+      "expo-router"
+    ],
+    "name": "RNApp",
+    "slug": "RNApp",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "843d229d-b0c7-46e7-b77f-e7e0bee1f3fa"
+      }
+    },
+    "android": {
+      "package": "com.hndrix.RNApp"
+    }
+  }
+}
